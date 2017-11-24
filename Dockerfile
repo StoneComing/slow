@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM as-java:8
 
 WORKDIR /home/apps/
 ADD target/slow-1.0.0.jar .
